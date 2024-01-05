@@ -1,0 +1,78 @@
+i want to create a website that allows 
+1. people to create a collection of their works using images or videos, give a writeup on the project highlighting reason or inspiration for the project
+2. one can show interest to follow updates on an idea and then get notifications on each changes or post on the idea
+
+
+
+User: 
+    * user authentication for signup and login
+    * showcase portfolio, works, images, videos and project details
+
+Home page: 
+    * displays images and videos 
+    * filter and search
+    * likes, comments, love, save and share
+
+messaging: 
+    * directly message people for...
+
+notification:
+    * on new messages, connection request, or activity related to their content
+
+feedback:
+    * users can provide feedback on projects or report inappropriate content
+
+skill exchange:
+    * users can offer their skills in exchange for other users' expertise
+
+crowdsourced ideas
+    * having submitting project ideas others can vote or express interest in collaborating on those ideas
+
+educational resources
+    * section for tutorials, workshop or educational content relating to various creative fields
+
+collaborative projects
+
+
+
+future
+    interactive workspace
+    blockchain to show ownership of projects
+    events and challenges
+
+
+
+
+*********************   DATABASE   ********************
+user: 
+    firstname, middlename, surname, id, id, role, bio, tel, website, location, skills, education, certification, interests
+project: 
+    id, title, desc, projectid, posterid, date, ideaId
+
+idea: 
+    id, title, desc, projectid, posterid, date, projectId
+
+images, loves, comments:
+    id, imageId, sourceId (id of project, idea, profilepics etc) date
+
+
+ideas
+
+
+loves
+
+comments
+
+
+********************PROJEECT VS IDEA*******************************
+
+project: 
+    a finished work done by you alone or a collaboration with others
+    provides the finished work without having to show the journey
+
+idea:
+    a work or concept conceived and shared for opinions or collaborations
+    having to fill us with the stages of the production
+    idea should be convertible to project and all the updates kept somewhere and only the finished result displayed
+
+

@@ -1,0 +1,32 @@
+#myCarousel{
+    height: 60vh;
+}
+
+.carousel-item{
+    height: auto;
+}
+.carousel-item  .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.607);
+}
+
+
+.bannerImg{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators{
+
+}
+
+.bannerParent{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    // background-position: 30% 80%;
+    background-position: center;
+    min-height: 50vh;
+    max-height: 50vh;
+}
+.roundedDesign{
+    
+}

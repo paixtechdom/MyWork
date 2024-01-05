@@ -1,0 +1,31 @@
+
+.navProfilePics{
+    width: 55px;
+    height: 55px;
+
+    img{
+        // width: 50%;
+    }
+}
+.cartIcon{
+    background-color: transparent;
+    // color: ;
+}
+.searchInput{
+    width: 0px;
+    transition: all 0.3s ease-in-out;
+}
+.searchInput:focus{
+    outline: none;
+}
+
+.navbarDown {
+    // height: 60px;
+
+    a{
+        // color: white;
+        p{
+            
+        }
+    }
+}

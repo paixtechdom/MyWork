@@ -1,0 +1,24 @@
+.cardSlider{
+    position: relative;
+
+    .sliderControl{
+        position: absolute;
+        z-index: 22;
+        top: 50%;
+        transform: translateY(-50%);
+
+        button{
+            height: 40px;
+            width: 40px;
+            transition: all 0.2s ease-in-out;
+    
+            &:hover{
+                background-color: black;
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+
+}
